@@ -1,0 +1,12 @@
+.login-form
+{
+    border: 1px solid #c3c3c3;
+    box-shadow: 1px 1px #c3c3c3;
+}
+
+.form-group label,
+.checkbox label
+{
+    float: left;
+    margin: 10px 0px 10px 0px;
+}

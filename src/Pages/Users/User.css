@@ -1,0 +1,32 @@
+.border-form{border: 1px solid #c3c3c3;}
+.form-label
+{
+    text-align: left;
+    width: 100%;
+    margin-top: 1rem;
+}
+.form-check-label 
+{
+    text-align: left;
+    width: 100%;
+}
+.form-div{margin-top: 20px;}
+.form-text {
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #6c757d;
+    display: block;
+    margin-top: 0.25rem;
+    text-align: left;
+}
+.row{margin-bottom: 10px;}
+.footer Button
+{
+    padding: 10px;
+    margin: 10px;
+}
+
+.action_icon{padding: 5px; cursor: pointer;}
+.action_icon .fa-eye{color: #008000}
+.action_icon .fa-edit{color: rgb(132, 216, 250)}
+.action_icon .fa-trash{color: rgb(214, 81, 57);}
