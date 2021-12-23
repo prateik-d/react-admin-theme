@@ -3,15 +3,13 @@ import DataTable from 'react-data-table-component';
 import Sidebar from '../../Component/Sidebar/Sidebar';
 import Header from '../../Component/Header/Header';
 import Breadcrumbs from '../../Component/Breacrumbs/Breadcrumbs';
-import movies from './movies';
+import users from '../../data/users';
+import date from '../../data/date';
 import { Button } from 'react-bootstrap';
-
-
-
 
 const UsersList = () => 
 {
-    const data = movies;
+    const data = users;
     
     const handleViewButtonClick = (id: number) =>
     {
@@ -43,33 +41,33 @@ const UsersList = () =>
             width: '5%',
         },
         {
-            name: 'Title',
-            selector: (row: any) => row.title,
+            name: 'Name',
+            selector: (row: any) => row.first_name + ' ' + row.last_name,
             sortable: true,
         },
         {
-            name: 'Year',
-            selector: (row: any) => row.year,
+            name: 'Phone',
+            selector: (row: any) => row.phone,
             sortable: true,
         },
         {
-            name: 'Runtime',
-            selector: (row: any) => row.runtime,
+            name: 'Email',
+            selector: (row: any) => row.email,
             sortable: true,
         },
         {
-            name: 'Genres',
-            selector: (row: any) => row.genres,
+            name: 'Address',
+            selector: (row: any) => row.address,
             sortable: true,
         },
         {
-            name: 'Director',
-            selector: (row: any) => row.director,
+            name: 'ZIP',
+            selector: (row: any) => row.zip,
             sortable: true,
         },
         {
-            name: 'Actors',
-            selector: (row: any) => row.actors,
+            name: 'State',
+            selector: (row: any) => row.state,
             sortable: true,
         },
         {

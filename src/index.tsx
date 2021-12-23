@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 
 
-import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.js';
-import $ from 'jquery';
-import Popper from 'popper.js';
+// import 'bootstrap';
+// import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/js/bootstrap.js';
+// import $ from 'jquery';
+// import Popper from 'popper.js';
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; 
+// import '../node_modules/bootstrap/dist/js/bootstrap.js'; 
 import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 
 

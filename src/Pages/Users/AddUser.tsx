@@ -8,9 +8,6 @@ import { Button } from 'react-bootstrap';
 import FileUpload from '../../Component/FileUpload/FileUpload';
 
 
-
-
-
 const AddUser = () => 
 {
     const [newUserInfo, setNewUserInfo] = useState({ profileImages: [] });
@@ -21,17 +18,6 @@ const AddUser = () =>
 
             // console.log(files);
         }
-
-        // const handleNewFileUpload = (e) => {
-        //     const { files: newFiles } = e.target;
-        //     if (newFiles.length) {
-        //         let updatedFiles = addNewFiles(newFiles);
-        //         setFiles(updatedFiles);
-        //         callUpdateFilesCb(updatedFiles);
-        
-        //         console.log(updatedFiles);
-        //     }
-        // };
         
         return (
             <>
